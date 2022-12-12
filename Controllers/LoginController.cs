@@ -26,4 +26,34 @@ public class LoginController : ControllerBase
 	{
 		return Ok(_loginService.ListarLogin());
 	}
+
+	[HttpGet("{id}")]
+	public IActionResult ListarLoginPeloId(int id)
+	{
+		var login = _loginService.ListarLoginPeloId(id);
+
+		if (login != null)
+		{
+			return Ok(login);
+		}
+
+		return NotFound();
+	}
+
+	[HttpPut("{id}")]
+	public IActionResult AtualizarLogin(int id, AtualizarLoginViewModel dados)
+	{
+		if (id != dados.Id)
+			return BadRequest("O id informado na URL é diferente do id informado no corpo da requisição.");
+
+		var login = _loginService.AtualizarLogin(dados);
+		return Ok(login);
+	}
+
+	[HttpDelete("{id}")]
+	public IActionResult ExcluirLogin(int id)
+	{
+		_loginService.ExcluirLogin(id);
+		return NoContent();
+	}
 }

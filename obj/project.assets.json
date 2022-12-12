@@ -6117,11 +6117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Git\\voeairlines-aspnetcore\\VoeAirlines\\VoeAirlines.csproj",
+      "projectUniqueName": "B:\\Git\\VoeAirlines\\VoeAirlines.csproj",
       "projectName": "VoeAirlines",
-      "projectPath": "B:\\Git\\voeairlines-aspnetcore\\VoeAirlines\\VoeAirlines.csproj",
+      "projectPath": "B:\\Git\\VoeAirlines\\VoeAirlines.csproj",
       "packagesPath": "C:\\Users\\shad0\\.nuget\\packages\\",
-      "outputPath": "B:\\Git\\voeairlines-aspnetcore\\VoeAirlines\\obj\\",
+      "outputPath": "B:\\Git\\VoeAirlines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "A:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
