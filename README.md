@@ -64,3 +64,5 @@ Sugestão de ordem para testar a aplicação:
 2) Criar, editar e excluir Manutenção
 3) Criar, editar e excluir Piloto
 4) Criar, editar e excluir Voo
+
+Full english README version soon!!!!
